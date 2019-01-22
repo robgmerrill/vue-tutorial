@@ -8,7 +8,8 @@
 </head>
 <body>
   <div id="helloWorld">
-    <h1>{{ title }}</h1>
+    <h1 v-text="title"></h1>
+    <img v-bind:src="img.src" v-bind:alt="img.alt"/>
     <p>{{ subtitle }}</p>
   </div>
   <div id="example">
